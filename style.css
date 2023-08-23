@@ -117,4 +117,233 @@ a:hover{
 .hamburger-icon span:last-child{
     transform: none;
 }
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    /* border: 1px solid red; */
+}
+.section-container{
+    display: flex;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+.section_pic_container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 50%;
+    overflow: hidden;
+     
+}
+.section_pic_container img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.section_text{
+    align-self: center;
+    text-align: center;
+}
+.section_text p{
+    font-weight: 600;
+}
+.section_text_p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+#social-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.icon{
+    cursor: pointer;
+    height: 2rem;
+     
+}
+
+/* buttons */
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.btn-color-1, .btn-color-2{
+    border: 0.1rem solid rgb(53,53,53);
+}
+.btn-color-1:hover, .btn-color-2:hover{
+    cursor: pointer;
+}
+.btn-color-1, .btn-color-2:hover{
+    background:rgb(53,53,53) ;
+    color: white;
+}
+.btn-color-1:hover{
+    background: rgb(0,0,0);
+}
+.btn-color-2{
+    background: none;
+}
+
+/* ABOUT SECTION */
+
+#about {
+    position: relative;
+  }
+  .section_text_p1{
+    text-align: center;
+  }
+  
+  .about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .about-details-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .about-containers,
+  .about-details-container {
+    display: flex;
+  }
+  
+  .about-pic {
+    border-radius: 2rem;
+    margin-top: 3.5rem;
+    height: 60vh;
+    
+  }
+  
+  .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
+  .details-container {
+    padding: 1rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    
+  }
+  
+  .section-container {
+    gap: 4rem;
+    height: 80%;
+    /* margin-top: 1rem; */
+    /* border: 1px solid blue; */
+    
+     
+  }
+  
+  .section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+     
+  
+  }
+  /* experience */
+  #experience {
+    position: relative;
+  }
+
+  
+  .experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  .experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+    /* margin-top:2rem ; */
+    /* border: 1px solid red; */
+  }
+  
+  article {
+    display: flex;
+    width: 10rem;
+    /* justify-content: space-around; */
+    gap: 1rem;
+     
+  }
+  
+  article .icon {
+    cursor: default;
+     
+     
+  }
+/* 
+  project */
+
+  #projects {
+    position: relative;
+  }
+  
+  .color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(245, 244, 244);
+  }
+  
+  .project-img {
+    border-radius: 1rem;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .project-title {
+    margin: 1rem;
+    color: black;
+  }
+  
+  .project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+  }
+  
+   
+
+ 
 
